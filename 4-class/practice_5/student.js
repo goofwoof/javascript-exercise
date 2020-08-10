@@ -1,7 +1,7 @@
 // TODO 19: 在这里写实现代码
 import Person from './person';
 
-class Teacher extends Person {
+class Students extends Person {
   constructor(name, age, klass) {
     super(name, age);
     this.klass = klass;
@@ -12,4 +12,4 @@ class Teacher extends Person {
   }
 }
 
-module.exports = Teacher;
+module.exports = Students;
